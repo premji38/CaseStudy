@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="35.613">
+    <testcase classname="Registration and user validation" name="Register as new user and Validate the registration confirmation message" time="35.206">
+        <system-out><![CDATA[Given User should able to click the sign up button and go to the registration page.passed
+When I enter the firstname as "Premkumar"...................................passed
+And I enter the Lastname as "Shanmugam".....................................passed
+And I enter the email as "shan17@gmail.com".................................passed
+And I enter the username as "premji17"......................................passed
+And I enter the password as "Diyaprem16"....................................passed
+And I enter the Confirm Password "Diyaprem16"...............................passed
+And I clicked the Register button...........................................passed
+And I should see the username as "Premkumar S"..............................passed
+And click on the profile icon with the registered id........................passed
+And user should click on the image on the profile option and compare the id.passed
+And Navigate to homepage and click on compose email option..................passed
+And write a message to another user.........................................passed
+Then Verify whether the message has sent to another user....................passed
+]]></system-out>
+    </testcase>
+</testsuite>

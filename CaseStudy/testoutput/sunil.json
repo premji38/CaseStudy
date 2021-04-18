@@ -1,0 +1,239 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-04-18T08:29:37.126Z",
+        "line": 25,
+        "name": "Register as new user and Validate the registration confirmation message",
+        "description": "",
+        "id": "registration-and-user-validation;register-as-new-user-and-validate-the-registration-confirmation-message;;2",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8154170600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User should able to click the sign up button and go to the registration page",
+            "match": {
+              "location": "StepDefinition.StepDefinition.user_should_able_to_click_the_sign_up_button_and_go_to_the_registration_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1720392600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I enter the firstname as \"Premkumar\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Premkumar\"",
+                  "offset": 25
+                }
+              ],
+              "location": "StepDefinition.StepDefinition.i_enter_the_firstname_as(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 163562700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I enter the Lastname as \"Shanmugam\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Shanmugam\"",
+                  "offset": 24
+                }
+              ],
+              "location": "StepDefinition.StepDefinition.i_enter_the_lastname_as(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 139614200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I enter the email as \"shan17@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"shan17@gmail.com\"",
+                  "offset": 21
+                }
+              ],
+              "location": "StepDefinition.StepDefinition.i_enter_the_email_as(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 131646200,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I enter the username as \"premji17\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"premji17\"",
+                  "offset": 24
+                }
+              ],
+              "location": "StepDefinition.StepDefinition.i_enter_the_username_as(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 173536200,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I enter the password as \"Diyaprem16\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Diyaprem16\"",
+                  "offset": 24
+                }
+              ],
+              "location": "StepDefinition.StepDefinition.i_enter_the_password_as(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 161566000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I enter the Confirm Password \"Diyaprem16\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Diyaprem16\"",
+                  "offset": 29
+                }
+              ],
+              "location": "StepDefinition.StepDefinition.i_enter_the_confirm_password(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3040859700,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I clicked the Register button",
+            "match": {
+              "location": "StepDefinition.StepDefinition.i_clicked_the_register_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 68814700,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I should see the username as \"Premkumar S\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Premkumar S\"",
+                  "offset": 29
+                }
+              ],
+              "location": "StepDefinition.StepDefinition.i_should_see_the_username_as(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 101729900,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "click on the profile icon with the registered id",
+            "match": {
+              "location": "StepDefinition.StepDefinition.click_on_the_profile_icon_with_the_registered_id()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2516260700,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user should click on the image on the profile option and compare the id",
+            "match": {
+              "location": "StepDefinition.StepDefinition.user_should_click_on_the_image_on_the_profile_option_and_compare_the_id()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6321070600,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Navigate to homepage and click on compose email option",
+            "match": {
+              "location": "StepDefinition.StepDefinition.navigate_to_homepage_and_click_on_compose_email_option()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 12050736100,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "write a message to another user",
+            "match": {
+              "location": "StepDefinition.StepDefinition.write_a_message_to_another_user()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 300189100,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "Verify whether the message has sent to another user",
+            "match": {
+              "location": "StepDefinition.StepDefinition.verify_whether_the_message_has_sent_to_another_user()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Register"
+          }
+        ]
+      }
+    ],
+    "name": "Registration and user validation",
+    "description": "This feature includes scenario that would validate the following feature \n1) Register as new user and Validate the registration confirmation message",
+    "id": "registration-and-user-validation",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Register/Register.feature",
+    "tags": []
+  }
+]
