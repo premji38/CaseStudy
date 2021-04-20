@@ -94,7 +94,7 @@ public class StepDefinition {
 	public void user_should_click_on_the_image_on_the_profile_option_and_compare_the_id() {
 		
 		driver.findElement(By.xpath("//*[@id=\"navbar\"]/ul[2]/li[2]/ul/li[1]/div/a/p")).click(); 
-		  String expectedEmail = "shan17@gmail.com"; 
+		  String expectedEmail = "shan18@gmail.com"; 
 		  String actualEmail = "";
 		  driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
 		  actualEmail=driver.findElement(By.xpath("//*[@id=\"sn-avatar-one\"]/div/ul/li[2]/a/div")).getText(); 

@@ -22,5 +22,5 @@ Then Verify whether the message has sent to another user
 
 Examples:
 |firstname|Lastname|            Email|username|  password|confirmpass|
-|Premkumar|Shanmugam|shan17@gmail.com|premji17|Diyaprem16|Diyaprem16|
+|Premkumar|Shanmugam|shan18@gmail.com|premji18|Diyaprem16|Diyaprem16|
 
